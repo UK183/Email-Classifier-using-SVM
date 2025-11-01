@@ -5,9 +5,10 @@ Deployed via **Flask**, this project demonstrates the complete ML lifecycle — 
 
 ---
 <div align="center">
-  <img src="images/Spam output1.png" width="30%"/>
+  <img src="images/Spam output1.PNG" width="30%"/>
 
 </div>
+
 ## 🎯 Project Outcomes
 
 - ✅ Achieved **over 98% accuracy** in classifying spam and legitimate emails.  
