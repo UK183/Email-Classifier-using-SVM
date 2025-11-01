@@ -53,9 +53,23 @@ This project reflects skills in **data preprocessing, feature engineering, model
 This solution can be extended to:
 - 📬 Enterprise email security systems  
 - 🔎 Phishing or fraud detection platforms  
-- 💬 Chat moderation and text classification tools  
+- 💬 Chat moderation and text classification tools
+  
+---
+
+## 📊 Project Flow
+
+**Data Importing →** Load dataset (`spam.csv`) and clean unnecessary columns  
+**Preprocessing →** Apply label encoding, remove duplicates, and perform basic text cleaning (lowercase, punctuation removal)  
+**EDA →** Visualize spam vs ham distribution and analyze message length patterns  
+**Vectorization →** Convert text data into numerical features using **CountVectorizer**  
+**TF-IDF Transformation →** Reweight words based on their importance and frequency  
+**SVM Model →** Train a **Support Vector Machine** classifier for spam detection  
+**Evaluation →** Measure model performance using accuracy, confusion matrix, and classification report  
+**Prediction →** Test the model on new email examples through an interactive **Flask web app**
 
 ---
+
 
 ## 🧩 Folder Structure
 Email_Classifier_SVM/
@@ -110,7 +124,7 @@ Then open your browser at 👉 http://127.0.0.1:5000
 
 ## 🏆 Key Achievements & Skills Demonstrated
 - End-to-End ML Pipeline: Data preprocessing → model training → deployment 
-- Text Analytics: Feature extraction via TF-IDF  
+- Text Analytics:Text Preprocessing & Feature extraction via CountVectorizer & TF-IDF  
 - Model Optimization: Hyperparameter tuning with GridSearchCV
 - Web Deployment: Flask integration and UI development
 - Explainable AI (XAI): Display of top influential words for transparency
