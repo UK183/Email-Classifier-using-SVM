@@ -84,9 +84,9 @@ Email_Classifier_SVM/
 
 ├── tf.pkl
 
-├──templates/index.html
+├──index.html
 
-├── static/style.css
+├── style.css
 
 └── requirements.txt
 
