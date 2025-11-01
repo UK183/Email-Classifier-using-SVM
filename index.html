@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Spam Classifier</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>📧 Email Spam Classifier (SVM)</h1>
+    <form action="/predict" method="POST">
+      <textarea name="message" placeholder="Enter your email text here..." required>{{ request.form.get('message', '') }}</textarea>
+      <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+    <div class="result">{{ prediction }}</div>
+    {% endif %}
+    {% if top_words %}
+  <div class="explain">
+  <div class="header">
+    <button id="showDetailsBtn">Get Details</button>
+    <span class="description">🔍 Words influencing this prediction</span>
+  </div>
+
+  <table id="wordsTable">
+    <thead>
+      <tr>
+        <th>Word</th>
+        <th>Weight</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for word, weight in top_words %}
+      <tr>
+        <td>{{ word }}</td>
+        <td>{{ weight }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  const btn = document.getElementById("showDetailsBtn");
+  const table = document.getElementById("wordsTable");
+
+  btn.addEventListener("click", () => {
+    table.classList.toggle("visible");
+    btn.textContent = table.classList.contains("visible") ? "Close Details" : "Get Details";
+});
+</script>
+{% endif %}
+
+  </div>
+</body>
+</html>

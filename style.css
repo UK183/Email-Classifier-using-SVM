@@ -1,0 +1,133 @@
+body {
+  background-color: #f4f7fa;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  margin: auto;
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  align-self: center;
+}
+
+h1 {
+  color: #333;
+}
+
+textarea {
+  width: 80%;
+  height: 120px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  align-self: center;
+  
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  animation: pop 0.5s ease;
+}
+@keyframes pop {
+    0% { transform: scale(0); }
+    60% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+.explain {
+  margin-top: 20px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.explain h3 {
+  color: #444;
+}
+
+.explain ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.explain li {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.explain {
+  font-family: Arial, sans-serif;
+  margin: 20px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button#showDetailsBtn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#showDetailsBtn:hover {
+  background-color: #0056b3;
+}
+
+.description {
+  font-size: 16px;
+  color: #333;
+}
+
+#wordsTable {
+  display: none; /* Hidden by default */
+  margin-top: 15px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#wordsTable.visible {
+  display: table; /* Show table when 'visible' class is added */
+}
+
+#wordsTable th, #wordsTable td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+#wordsTable th {
+  background-color: #f2f2f2;
+}
