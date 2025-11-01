@@ -1,14 +1,14 @@
+<div align="center">
+  <img src="images/Spam output1.PNG" width="80%"/>
+
+</div>
+
 # 📧 Email Classification using SVM & Flask
 
 An **end-to-end Machine Learning web application** that classifies emails as **Spam** or **Legitimate (Ham)** using a **Support Vector Machine (SVM)** model trained on real-world email data.  
 Deployed via **Flask**, this project demonstrates the complete ML lifecycle — from text preprocessing and feature engineering to web-based deployment — delivering an interactive, explainable, and production-ready application.
 
 ---
-<div align="center">
-  <img src="images/Spam output1.PNG" width="80%"/>
-
-</div>
-
 ## 🎯 Project Outcomes
 
 - ✅ Achieved **over 98% accuracy** in classifying spam and legitimate emails.  
