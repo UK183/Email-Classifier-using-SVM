@@ -5,7 +5,7 @@ Deployed via **Flask**, this project demonstrates the complete ML lifecycle — 
 
 ---
 <div align="center">
-  <img src="images/Spam output1.PNG" width="30%"/>
+  <img src="images/Spam output1.PNG" width="70%"/>
 
 </div>
 
