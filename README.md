@@ -134,7 +134,7 @@ Then open your browser at 👉 http://127.0.0.1:5000
 - Explainable AI (XAI): Display of top influential words for transparency
 - Full-Stack ML Project Execution: From dataset to live application
 
-
+---
 ### 👤 Author
 [**Kazi Umar**](https://github.com/UK183)<br>
 Linkedin profile: https://www.linkedin.com/in/umar-kazi18  
