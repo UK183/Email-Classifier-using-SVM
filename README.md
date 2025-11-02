@@ -135,7 +135,10 @@ Then open your browser at 👉 http://127.0.0.1:5000
 - Full-Stack ML Project Execution: From dataset to live application
 
 
-
+### 👤 Author
+[**Kazi Umar**](https://github.com/UK183)<br>
+Linkedin profile: https://www.linkedin.com/in/umar-kazi18  
+💼 Data Analyst | ML Engineer | Data Science & AI Enthusiast | Power BI | Python | SQL
 
 
 
